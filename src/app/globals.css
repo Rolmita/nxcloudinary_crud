@@ -1,0 +1,58 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+    margin-left: 5px;
+}
+
+.formularios form{
+    display: inline-block;
+    width: 305px;
+    margin-bottom: 10px;
+}
+
+.formularios .container{
+    display:inline-block;
+    margin-bottom: 5px;
+    justify-items: center;
+    margin: 5px;
+}
+
+button{
+    margin-right: 5px;
+    margin-left: 0;
+    border: 3px solid purple;
+    background-color: purple;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: bold;
+}
+
+.vistaPrevia{
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    background-color: white;
+    border: 3px solid purple;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.vistaPrevia img{
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.operar{
+    display: inline-block;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+}

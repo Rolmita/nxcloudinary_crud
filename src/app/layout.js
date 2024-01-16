@@ -1,4 +1,5 @@
-import './globals.css'
+import '@/app/globals.css'
+import { Toaster } from 'react-hot-toast'
 
 export const metadata = {
   title: 'Server Actions (formAction)',
@@ -8,7 +9,24 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>{children}
+      <Toaster
+          position="top-right"
+          reverseOrder={false}
+          toastOptions={{
+            success: {
+              style: {
+                background: 'rgba(0, 255, 0, 0.1)',
+              },
+            },
+            error: {
+              style: {
+                background: 'rgba(255, 0, 0, 0.1)',
+              },
+            },
+          }} />
+      </body>
+      
     </html>
   )
 }

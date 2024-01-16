@@ -3,7 +3,14 @@ const nextConfig = {
     experimental: {
         serverActions: true,
       },
-
+      images: {
+        remotePatterns: [
+            {
+              protocol: 'https',
+              hostname: '**.cloudinary.com',
+            },
+          ],
+    },
 }
 
 module.exports = nextConfig
